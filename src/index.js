@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 
-export default verifyFacebookRequestSignature = (appSecret) =>
+export default (appSecret) =>
   (req, res, buf) => {
     const signature = req.headers['x-hub-signature'];
     if (!signature) {
