@@ -1,0 +1,33 @@
+{
+  "name": "verify-facebook-request-signature",
+  "version": "0.0.1",
+  "description": "Opinionated logger with chalk.js",
+  "homepage": "https://github.com/filipdanic/verify-facebook-request-signature",
+  "bugs": {
+    "url": "https://github.com/filipdanic/verify-facebook-request-signature/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:filipdanic/verify-facebook-request-signature.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "request signature"
+  ],
+  "author": {
+    "name": "Filip Danić",
+    "email": "filipdanic7@gmail.com",
+    "url": "http://danicfilip.com"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "demo": "node demo/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
