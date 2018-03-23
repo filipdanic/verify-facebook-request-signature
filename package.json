@@ -1,6 +1,6 @@
 {
   "name": "verify-facebook-request-signature",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opinionated logger with chalk.js",
   "homepage": "https://github.com/filipdanic/verify-facebook-request-signature",
   "bugs": {
