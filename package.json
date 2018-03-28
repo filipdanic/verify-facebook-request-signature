@@ -22,8 +22,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "demo": "node demo/index.js"
+    "build": "babel src -d lib"
   },
   "license": "MIT",
   "devDependencies": {
